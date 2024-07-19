@@ -49,33 +49,51 @@ This is a Recipe app built using Jetpack Compose for the UI. It features a beaut
 - View reviews and more images related to the recipe.
 
 ## Project Structure
-
 recipe-app/
 ├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/recipeapp/
-│ │ │ │ ├── MainActivity.kt
-│ │ │ │ ├── data/
-│ │ │ │ │ ├── Recipe.kt
-│ │ │ │ │ └── SampleData.kt
-│ │ │ │ └── ui/
-│ │ │ │ ├── theme/
-│ │ │ │ │ ├── Color.kt
-│ │ │ │ │ ├── Shape.kt
-│ │ │ │ │ ├── Theme.kt
-│ │ │ │ │ └── Type.kt
-│ │ │ │ └── MainFragment.kt
-│ │ │ └── res/
-│ │ │ ├── drawable/
-│ │ │ ├── layout/
-│ │ │ ├── mipmap/
-│ │ │ ├── values/
-│ │ │ └── xml/
-│ │ └── AndroidManifest.xml
-│ └── build.gradle
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/recipeapp/
+│   │   │   │   ├── MainActivity.kt
+│   │   │   │   ├── data/
+│   │   │   │   │   ├── Recipe.kt
+│   │   │   │   │   └── SampleData.kt
+│   │   │   │   ├── ui/
+│   │   │   │   │   ├── components/
+│   │   │   │   │   │   ├── CircularButton.kt
+│   │   │   │   │   │   ├── IngredientCard.kt
+│   │   │   │   │   │   ├── EasyGrid.kt
+│   │   │   │   │   │   └── TabButton.kt
+│   │   │   │   │   ├── theme/
+│   │   │   │   │   │   ├── Color.kt
+│   │   │   │   │   │   ├── Shape.kt
+│   │   │   │   │   │   ├── Theme.kt
+│   │   │   │   │   │   └── Type.kt
+│   │   │   │   │   ├── MainFragment.kt
+│   │   │   │   │   └── ParallaxToolbar.kt
+│   │   │   └── res/
+│   │   │       ├── drawable/
+│   │   │       │   ├── ic_arrow_back.xml
+│   │   │       │   ├── ic_arrow_right.xml
+│   │   │       │   ├── ic_favorite.xml
+│   │   │       │   ├── ic_clock.xml
+│   │   │       │   ├── ic_flame.xml
+│   │   │       │   ├── ic_minus.xml
+│   │   │       │   ├── ic_plus.xml
+│   │   │       │   └── ic_star.xml
+│   │   │       ├── layout/
+│   │   │       ├── mipmap/
+│   │   │       ├── values/
+│   │   │       │   ├── colors.xml
+│   │   │       │   ├── strings.xml
+│   │   │       │   ├── styles.xml
+│   │   │       │   └── themes.xml
+│   │   │       └── xml/
+│   │   └── AndroidManifest.xml
+│   └── build.gradle
 ├── build.gradle
 └── settings.gradle
+
 
 
 
