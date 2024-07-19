@@ -16,8 +16,8 @@ This is a Recipe app built using Jetpack Compose for the UI. It features a beaut
 ## Screenshots
 
 <!-- Add screenshots of your app here -->
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
 
 ## Requirements
 
